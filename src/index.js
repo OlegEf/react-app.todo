@@ -12,10 +12,13 @@ const SearchPanel  = () => {
 };
 
 const Todolist  = () => {
+	
+	const items = [ 'Drink Coffee', 'Build Awesome App' ]
+	
 	return (
 		<ul>
-			<li>Learn React</li>
-			<li>Build Awesome App</li>
+			<li>{ items[0] }</li>
+			<li>{ items[1] }</li>
 		</ul>
 	);
 };
