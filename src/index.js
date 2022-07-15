@@ -1,6 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+const AppHeader  = () => {
+	return (<h1>My Todo list</h1>);
+};
+
+const SearchPanel  = () => {
+	return (
+		<input placeholder = "search" />
+	);
+};
+
 const Todolist  = () => {
 	return (
 		<ul>
@@ -12,8 +22,8 @@ const Todolist  = () => {
 
 const el = (
 	<div>
-		<h1>My Todo list</h1>
-		<input placeholder = "search" />
+		<AppHeader/>
+		<SearchPanel/>
 		<Todolist/>
 	</div>
 );
