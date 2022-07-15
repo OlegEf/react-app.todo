@@ -20,13 +20,15 @@ const Todolist  = () => {
 	);
 };
 
-const el = (
+const App = () => {
+	return (
 	<div>
 		<AppHeader/>
 		<SearchPanel/>
 		<Todolist/>
 	</div>
-);
-
-ReactDOM.render(el,
+	);
+};
+	
+ReactDOM.render(<App/>,
   document.getElementById('root'));
