@@ -6,14 +6,17 @@ const AppHeader  = () => {
 };
 
 const SearchPanel  = () => {
-	return (
-		<input placeholder = "search" />
-	);
+	const searchText = 'Type here to search';
+	const searchStyle = { fontSize: '20px' };
+	
+	return <input 
+		style = {searchStyle}
+		placeholder = {searchText} />;
 };
 
 const Todolist  = () => {
 	
-	const items = [ 'Drink Coffee', 'Build Awesome App' ]
+	const items = [ 'Drink Coffee', 'Build Awesome App' ];
 	
 	return (
 		<ul>
