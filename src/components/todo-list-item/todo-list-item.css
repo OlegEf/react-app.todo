@@ -16,8 +16,6 @@
 
 .todo-list-item.done .todo-list-item-label {
   text-decoration: line-through;
-  /*vgt*/
-    /*color: red;*/
 }
 
 .todo-list-item.important .todo-list-item-label {
